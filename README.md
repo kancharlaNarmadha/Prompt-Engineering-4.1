@@ -1,215 +1,114 @@
 # EXP 4 Scenario-Based Report Development Utilizing Diverse Prompting Techniques- Lab Scenario: Smart Health Assistant System
-### Name: Kancharla Narmadha
-### Reg no: 212222110016
-### **Background**
-MediGuide is an AI-based Smart Health Assistant designed to support elderly patients managing chronic diseases like **diabetes**, **hypertension**, and **arthritis**. It aims to deliver:
-- Personalized health advice
-- Timely medication reminders
-- Daily lifestyle tips
-- Emotional and motivational support
 
-To ensure that MediGuide communicates effectively and empathetically, we explore how different **prompting strategies** can optimize its responses across real-world scenarios.
+# AIM:
+To demonstrate how different prompting techniques can be used to improve the performance and contextual relevance of an AI-based health assistant system—MediGuide—in providing support for elderly patients with chronic diseases.
 
----
+# Description: 
+## Background:
+You are part of a development team working on an AI-based Smart Health Assistant named "MediGuide". This virtual assistant is designed to help elderly patients manage chronic conditions such as diabetes, hypertension, and arthritis. MediGuide's capabilities include:
 
-### **Objective**
-Demonstrate the application and benefits of five prompting techniques—**zero-shot**, **few-shot**, **chain-of-thought**, **role-based**, and **multi-modal**—in improving MediGuide’s performance across diverse healthcare support tasks.
+    1.Providing personalized health advice
 
----
-## Output
-## **Prompting Techniques & Use Cases**
+    2.Sending medication reminders
 
-### **1. Zero-Shot Prompting**
-**Use Case:** Responding to an unexpected patient query.
+    3.Sharing daily wellness tips
 
-**Prompt:**  
-*"What should I eat for dinner if my blood sugar was high all day?"*
+    4.Offering emotional support through conversational AI
 
-**MediGuide Response (Zero-shot):**  
-"Since your blood sugar was high today, consider a low-carbohydrate dinner like grilled chicken with steamed vegetables. Avoid sugary drinks or starchy sides like bread or rice."
+To improve MediGuide’s effectiveness, we explore how diverse prompting techniques can enhance its interactions.
 
-**Benefit:**  
-Quick response without prior examples. Efficient for general knowledge questions or common advice.
 
----
+## Objective:
+Develop a scenario-based report that demonstrates how diverse prompting techniques (zero-shot, few-shot, chain-of-thought, role-based, and multi-modal prompts) can be used to optimize MediGuide’s responses in different use cases.
 
-### **2. Few-Shot Prompting**
-**Use Case:** Providing tailored advice by learning from examples.
+# Algorithm:
+### 1.Identify Use Cases:
 
-**Prompt:**  
-*Example 1:  
-Q: I forgot to take my morning blood pressure pill. What should I do?  
-A: If you're within a few hours, you can still take it. Otherwise, skip it and continue your normal schedule tomorrow.*
+    1.Daily health advice for arthritis patients
 
-*Example 2:  
-Q: My knee pain is worse today. Should I still go for a walk?  
-A: If the pain is sharp or swelling, it's best to rest. Gentle stretches can help, but avoid strain.*
+    2.Blood pressure monitoring for hypertension
 
-*Now:  
-Q: My sugar levels are okay, but I feel dizzy this afternoon. What could be the reason?"*
+    3.Emotional support during diabetes management
 
-**MediGuide Response (Few-shot):**  
-"Dizziness can be due to dehydration, fatigue, or blood sugar changes. Drink water, rest, and check your sugar again. If it continues, contact your doctor."
+### 2.Define Prompting Techniques:
 
-**Benefit:**  
-Improves contextual understanding and response tone by mimicking past examples.
+    1.Zero-shot Prompting: Direct question without examples
 
----
+    2.Few-shot Prompting: Input includes sample interactions
 
-### **3. Chain-of-Thought Prompting**
-**Use Case:** Handling complex health reasoning.
+    3.Chain-of-Thought Prompting: Encourage reasoning steps
 
-**Prompt:**  
-*"Help the user decide if they should take insulin after eating a meal that caused a sugar spike."*
+    4.Role-based Prompting: Assign AI a specific role (e.g., virtual nurse)
 
-**MediGuide Response (Chain-of-Thought):**  
-"First, let’s understand your situation. You had a high-sugar meal, and your blood sugar has spiked. Next, check how much it has spiked using your glucose monitor. If it's significantly above your usual range, consult your insulin adjustment plan or contact your doctor. If the spike is minor, hydration and light activity may help."
+    5.Multi-modal Prompting: Combine text with input images (e.g., food logs)
 
-**Benefit:**  
-Encourages step-by-step reasoning, improving clarity and accuracy in medical advice.
+### 3.Create Scenario-Based Prompts:
 
----
+    Frame prompts tailored to each use case and method.
 
-### **4. Role-Based Prompting**
-**Use Case:** Providing comforting emotional support.
+### 4.Collect Responses:
 
-**Prompt:**  
-*"You are a compassionate caregiver. The patient says: 'I feel lonely and tired all the time.' Respond."*
+    Submit the prompts to the AI and record the responses.
 
-**MediGuide Response (Role-based):**  
-"I'm really sorry you're feeling this way. You're not alone—many people feel this way when dealing with health issues. Would you like me to suggest relaxing activities or breathing exercises to help you feel better? I'm here for you."
+### 5.Evaluate Output:
 
-**Benefit:**  
-Enhances empathy and emotional intelligence in patient interaction, critical for elder care.
+    Assess based on relevance, accuracy, empathy, and personalization.
 
----
+# output
 
-### **5. Multi-Modal Prompting**
-**Use Case:** Analyzing visual health data (e.g., diet logs, medication charts).
+### Use Case 1: Arthritis - Daily Advice
 
-**Prompt (with uploaded photo of a meal):**  
-*"Is this a good dinner choice for someone with high blood pressure?"*
-**MediGuide Response (Multi-modal):**  
-"From the image, I see baked salmon, broccoli, and brown rice—excellent choices! They're low in sodium and rich in heart-healthy nutrients. Just make sure the portion size is appropriate."
+#### Zero-shot Prompt:
 
-**Benefit:**  
-Combines visual understanding with health knowledge to provide personalized advice.
+    "What advice can you give to someone with arthritis today?"
 
----
+     Output: Generic exercise and diet tips.
 
-## **Conclusion**
-Using diverse prompting strategies significantly improves the **quality**, **relevance**, and **empathy** of responses in MediGuide. Each technique serves a unique purpose:
+#### Few-shot Prompt:
 
-- **Zero-shot**: Fast general knowledge retrieval.
-- **Few-shot**: Learns tone and style from prior examples.
-- **Chain-of-thought**: Handles reasoning-heavy decisions.
-- **Role-based**: Offers emotional support effectively.
-- **Multi-modal**: Bridges visual input with tailored advice.
----# EXP 4 Scenario-Based Report Development Utilizing Diverse Prompting Techniques- Lab Scenario: Smart Health Assistant System
-### Name: Yogeshvar M
-### Reg no: 212222230180
-### **Background**
-MediGuide is an AI-based Smart Health Assistant designed to support elderly patients managing chronic diseases like **diabetes**, **hypertension**, and **arthritis**. It aims to deliver:
-- Personalized health advice
-- Timely medication reminders
-- Daily lifestyle tips
-- Emotional and motivational support
+    "Yesterday you advised light stretching. Today, what should I do for arthritis pain?"
 
-To ensure that MediGuide communicates effectively and empathetically, we explore how different **prompting strategies** can optimize its responses across real-world scenarios.
+    Output: Personalized follow-up including gentle yoga and hydration tips.
 
----
+#### Role-based Prompt:
 
-### **Objective**
-Demonstrate the application and benefits of five prompting techniques—**zero-shot**, **few-shot**, **chain-of-thought**, **role-based**, and **multi-modal**—in improving MediGuide’s performance across diverse healthcare support tasks.
+    "As a virtual physiotherapist, suggest an arthritis-safe morning routine."
 
----
-## Output
-## **Prompting Techniques & Use Cases**
+    Output: Detailed routine with warm-up, stretching, and breathing practices.
 
-### **1. Zero-Shot Prompting**
-**Use Case:** Responding to an unexpected patient query.
+### Use Case 2: Hypertension - Monitoring and Alerts
 
-**Prompt:**  
-*"What should I eat for dinner if my blood sugar was high all day?"*
+#### Chain-of-Thought Prompt:
 
-**MediGuide Response (Zero-shot):**  
-"Since your blood sugar was high today, consider a low-carbohydrate dinner like grilled chicken with steamed vegetables. Avoid sugary drinks or starchy sides like bread or rice."
+    "My BP reading is 150/95. Should I be worried? Explain step-by-step."
 
-**Benefit:**  
-Quick response without prior examples. Efficient for general knowledge questions or common advice.
+    Output: Breaks down normal BP ranges, explains risks, and suggests contacting a doctor.
 
----
+#### Few-shot Prompt:
 
-### **2. Few-Shot Prompting**
-**Use Case:** Providing tailored advice by learning from examples.
+    "Last week my BP was 130/85. Today it is 150/95. What does this mean?"
 
-**Prompt:**  
-*Example 1:  
-Q: I forgot to take my morning blood pressure pill. What should I do?  
-A: If you're within a few hours, you can still take it. Otherwise, skip it and continue your normal schedule tomorrow.*
+    Output: Tracks trends, explains fluctuations, and suggests dietary checks.
 
-*Example 2:  
-Q: My knee pain is worse today. Should I still go for a walk?  
-A: If the pain is sharp or swelling, it's best to rest. Gentle stretches can help, but avoid strain.*
+### Use Case 3: Diabetes - Emotional Support
 
-*Now:  
-Q: My sugar levels are okay, but I feel dizzy this afternoon. What could be the reason?"*
+#### Role-based Prompt:
 
-**MediGuide Response (Few-shot):**  
-"Dizziness can be due to dehydration, fatigue, or blood sugar changes. Drink water, rest, and check your sugar again. If it continues, contact your doctor."
+    "As a supportive companion, help me stay positive despite my sugar levels."
 
-**Benefit:**  
-Improves contextual understanding and response tone by mimicking past examples.
+    Output: Encouraging words, stress reduction tips, and motivational quotes.
 
----
+#### Multi-modal Prompt:
 
-### **3. Chain-of-Thought Prompting**
-**Use Case:** Handling complex health reasoning.
+    (Includes image of sugar readings from glucose monitor)
 
-**Prompt:**  
-*"Help the user decide if they should take insulin after eating a meal that caused a sugar spike."*
+    Output: Analysis of trends from the image + calming voice-based tips (if supported).
 
-**MediGuide Response (Chain-of-Thought):**  
-"First, let’s understand your situation. You had a high-sugar meal, and your blood sugar has spiked. Next, check how much it has spiked using your glucose monitor. If it's significantly above your usual range, consult your insulin adjustment plan or contact your doctor. If the spike is minor, hydration and light activity may help."
+# Conclusion:
 
-**Benefit:**  
-Encourages step-by-step reasoning, improving clarity and accuracy in medical advice.
+Using advanced prompting techniques can make AI health assistants like MediGuide more interactive, emotionally intelligent, and clinically useful. Such strategies can greatly enhance user trust and satisfaction, especially for elderly patients managing chronic diseases. Continued exploration of prompt engineering is essential for creating truly smart healthcare solutions.
 
----
 
-### **4. Role-Based Prompting**
-**Use Case:** Providing comforting emotional support.
 
-**Prompt:**  
-*"You are a compassionate caregiver. The patient says: 'I feel lonely and tired all the time.' Respond."*
-
-**MediGuide Response (Role-based):**  
-"I'm really sorry you're feeling this way. You're not alone—many people feel this way when dealing with health issues. Would you like me to suggest relaxing activities or breathing exercises to help you feel better? I'm here for you."
-
-**Benefit:**  
-Enhances empathy and emotional intelligence in patient interaction, critical for elder care.
-
----
-
-### **5. Multi-Modal Prompting**
-**Use Case:** Analyzing visual health data (e.g., diet logs, medication charts).
-
-**Prompt (with uploaded photo of a meal):**  
-*"Is this a good dinner choice for someone with high blood pressure?"*
-**MediGuide Response (Multi-modal):**  
-"From the image, I see baked salmon, broccoli, and brown rice—excellent choices! They're low in sodium and rich in heart-healthy nutrients. Just make sure the portion size is appropriate."
-
-**Benefit:**  
-Combines visual understanding with health knowledge to provide personalized advice.
-
----
-
-## **Conclusion**
-Using diverse prompting strategies significantly improves the **quality**, **relevance**, and **empathy** of responses in MediGuide. Each technique serves a unique purpose:
-
-- **Zero-shot**: Fast general knowledge retrieval.
-- **Few-shot**: Learns tone and style from prior examples.
-- **Chain-of-thought**: Handles reasoning-heavy decisions.
-- **Role-based**: Offers emotional support effectively.
-- **Multi-modal**: Bridges visual input with tailored advice.
----
+# Result
+The experiment successfully demonstrated how diverse prompting strategies significantly influence the relevance, personalization, and empathetic tone of MediGuide’s responses
